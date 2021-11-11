@@ -1,8 +1,26 @@
 header {
-	background-image: url(papel.jpg);
+	background-image: url(silver.jpg);
+}
+
+.topo {
 	position: relative;
-	margin: 0 auto;
-	width: 100%;
+}
+
+nav {
+	position: absolute;
+	bottom: 20px;
+	left: 1030px;
+	bottom: 120px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-shadow: 2px 2px black;
+}
+
+nav a:hover {
+	color: orange;
+	text-decoration: underline;
 }
 
 h1 {
@@ -30,11 +48,19 @@ h3 {
 }
 
 h4 {
-	padding-left: 20px;
+	padding-left: 22px;
 }
 
+h5 {
+	text-align: right;
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+	padding-bottom: 15px;
+}	
+
 .discos {
-	width: 900px;
+	width: 910px;
 	margin: 0 auto;
 	padding: 50px 0;
 }
@@ -50,6 +76,14 @@ h4 {
 	border: 5px solid black;
 	border-radius: 15px;
 
+}
+
+.discos li:hover {
+	border-color: orange;
+}
+
+.discos li:active {
+	border-color: blue;
 }
 
 footer {
