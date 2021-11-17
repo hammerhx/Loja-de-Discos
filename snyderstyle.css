@@ -2,6 +2,10 @@ header {
 	background-image: url(silver.jpg);
 }
 
+body {
+	font-family: 'Lobster';
+}
+
 .topo {
 	position: relative;
 }
@@ -70,9 +74,9 @@ h5 {
 	width: 40%;
 	vertical-align: top;
 	margin: 2% 2% 2% 2%;
-	padding: 30px 30px;
-	box-sizing: border-box;
-	border: 5px solid black;
+	padding: 30px 20px;
+	box-sizing: content-box;
+	border: 6px solid black;
 	border-radius: 15px;
 
 }
